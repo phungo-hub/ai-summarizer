@@ -16,8 +16,8 @@ const Hero = () => {
         </button>
       </nav>
       <h1 className="head_text">
-        Summarize Your Articles <br />{" "}
-        <span className="orange_gradient">With OpenAI GPT-4</span>
+        Summarize Articles with <br className="max-md:hidden"/>{" "}
+        <span className="orange_gradient"> OpenAI GPT-4</span>
       </h1>
       <h3 className="desc">
         QuickReads is an AI-powered article summarizer SAAS business that
