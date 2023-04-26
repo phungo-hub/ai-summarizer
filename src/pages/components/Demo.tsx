@@ -61,14 +61,6 @@ const Demo = () => {
               <Image src={loader} alt="loading" />
               <div>Please wait... It usually takes 10 to 15 seconds^^</div>
             </div>
-          ) : error ? (
-            <p className="font-bold text-black text-center">
-              Well, that wasn't supposed to happen...
-              <br />
-              <span className="font-normal text-gray-700">
-                {error?.data?.error}
-              </span>
-            </p>
           ) : (
             article.summary && (
               <div className="flex flex-col justify-center">
