@@ -55,9 +55,9 @@ const Demo = () => {
             ⏎
           </button>
         </form>
-        <div className="max-w-full my-10 flex justify-center items-center">
+        <div className="max-w-full my-10 flex items-center">
           {isFetching ? (
-            <div className="flex flex-col justify-center items-center">
+            <div className="w-full flex flex-col justify-center items-center">
               <Image src={loader} alt="loading" />
               <div>Please wait... It usually takes 10 to 15 seconds^^</div>
             </div>
@@ -71,8 +71,13 @@ const Demo = () => {
             </p>
           ) : (
             article.summary && (
-              <div className="flex flex-col items-center justify-center">
-                
+              <div className="flex flex-col justify-center">
+                <div className="font-bold text-xl text-gray-700">
+                  Article <span className="">Summary</span> 
+                </div>
+                <div className="summary_box">
+                  {article.summary}
+                </div>
               </div>
             )
           )}
