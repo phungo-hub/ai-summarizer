@@ -1,27 +1,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.gradient {
+  height: fit-content;
+  z-index: 3;
+  width: 100%;
+  max-width: 640px;
+  background-image: radial-gradient(
+    ellipse farthest-corner at center,
+    #9bc88b,
+    #8bbf8a,
+    #7cb688,
+    #6eac86,
+    #60a384
+  );
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  filter: blur(100px) saturate(150%);
+  top: 80px;
+  opacity: 0.15;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media screen and (max-width: 640px) {
+  .main {
+    padding: 0;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
+  pointer-events: none;
+}
+
+.black_btn {
+  @apply rounded-full border py-1.5 px-5 text-sm border-black bg-black text-white transition-all hover:bg-white hover:text-black;
+}
+
+.head_text {
+  @apply text-6xl text-center mt-6 font-bold;
+}
+
+.desc {
+  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+}
+
+.orange_gradient {
+  @apply bg-gradient-to-r from-green-500 via-blue-600 to-violet-500 bg-clip-text text-transparent;
+}
+
+.url_input {
+  @apply block w-full m-auto rounded-md border border-gray-300 
+  bg-white py-2.5 pl-10 pr-12 focus:border-black focus:ring-0;
+}
+
+.submit_btn {
+  @apply hover:border-gray-700 hover:text-gray-700 text-gray-400 
+  text-sm rounded border w-10 absolute inset-y-0 right-0 my-1.5 mr-1.5
+  font-medium flex items-center justify-center;
 }
