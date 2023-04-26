@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import link from "src/pages/assets/link.svg";
 import loader from "src/pages/assets/loader.svg";
-import { useLazyGetSummaryQuery } from "../services/article";
+import { useLazyGetSummaryQuery } from "../../services/article";
 
 interface Article {
   url: string;
