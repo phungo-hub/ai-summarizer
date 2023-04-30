@@ -15,9 +15,8 @@ Github Repo: [Repo](https://github.com/phungo-hub/ai-summarizer)
 
 Live preview: [Website](https://ai-summarizer-alpha.vercel.app/)
 
-*Project Screenshots*
+*Project Showing*
 ==============
-### 
 
 
 
