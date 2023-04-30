@@ -33,8 +33,6 @@ const Demo = () => {
 
       setArticle(newArticle);
     }
-
-    console.log(data.summary);
   };
   return (
     <>
@@ -65,11 +63,9 @@ const Demo = () => {
             article.summary && (
               <div className="flex flex-col justify-center">
                 <div className="font-bold text-xl text-gray-700">
-                  Article <span className="">Summary</span> 
+                  Article <span className="">Summary</span>
                 </div>
-                <div className="summary_box">
-                  {article.summary}
-                </div>
+                <div className="summary_box">{article.summary}</div>
               </div>
             )
           )}

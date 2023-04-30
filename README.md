@@ -1,11 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 **AI Article Summarizer**
 ==============
 
-## **Quick Overview**
+*Quick Overview*
+==============
 
 ### **Problem**
+The problem was to create a new AI article summarizer that quickly and accurately summarizes lengthy articles, helping users save time and effort.
+
+### **Solution**
+To solve this problem, I used React and Next.js to create the application's front end, then TailwindCSS for styling and RapidAPI, a third party platform to call OpenAI API.
+
+### **Demo**
+Github Repo: [Repo](https://github.com/phungo-hub/ai-summarizer)
+
+Live preview: [Website](https://ai-summarizer-alpha.vercel.app/)
+
+*Project Screenshots*
+==============
+### 
+
+
 
 First, run the development server:
 
