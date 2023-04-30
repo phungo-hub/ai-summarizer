@@ -1,8 +1,7 @@
 **AI Article Summarizer**
 ==============
 
-*Quick Overview*
-==============
+## Quick Overview
 
 ### **Problem**
 The problem was to create a new AI article summarizer that quickly and accurately summarizes lengthy articles, helping users save time and effort.
@@ -15,22 +14,20 @@ Github Repo: [Repo](https://github.com/phungo-hub/ai-summarizer)
 
 Live preview: [Website](https://ai-summarizer-alpha.vercel.app/)
 
-*Project Showing*
-==============
+## Project Showing
 https://user-images.githubusercontent.com/55489328/235343714-9c5a9b19-0ef8-48fa-b465-af33c9af106e.mp4
 
 
-*Technologies*
-==============
+## Technologies
 
 ### **Core**
-  - React (18.2.0)
-  - NextJS
-  - Typescript
+  - **React (18.2.0)**
+  - **NextJS**
+  - **Typescript**
 ### **Styling**
-  - Tailwind CSS: used for styling components, page layout
+  - **Tailwind CSS**: used for styling components, page layout
 ### **Hosting and Deployment**
-  - Vercel: hosting & continuous deployment
+  - **Vercel**: hosting & continuous deployment
 
 ## Code Formatting & Linting
 - Use Prettier as code formatter to auto format code (on Save). Rules defined in ```.prettierrc.``` (to avoid conflicting formatting between developers)
