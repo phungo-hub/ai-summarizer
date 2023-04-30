@@ -17,9 +17,20 @@ Live preview: [Website](https://ai-summarizer-alpha.vercel.app/)
 
 *Project Showing*
 ==============
-
 https://user-images.githubusercontent.com/55489328/235343714-9c5a9b19-0ef8-48fa-b465-af33c9af106e.mp4
 
+
+*Technologies*
+==============
+
+### **Core
+  - React (18.2.0)
+  - NextJS
+  - Typescript
+### **Styling
+  - Tailwind CSS: used for styling components, page layout
+### **Hosting and Deployment
+  - Vercel: hosting & continuous deployment
 
 First, run the development server:
 
