@@ -23,15 +23,26 @@ https://user-images.githubusercontent.com/55489328/235343714-9c5a9b19-0ef8-48fa-
 *Technologies*
 ==============
 
-### **Core
+### **Core**
   - React (18.2.0)
   - NextJS
   - Typescript
-### **Styling
+### **Styling**
   - Tailwind CSS: used for styling components, page layout
-### **Hosting and Deployment
+### **Hosting and Deployment**
   - Vercel: hosting & continuous deployment
 
+## Code Formatting & Linting
+- Use Prettier as code formatter to auto format code (on Save). Rules defined in ```.prettierrc.``` (to avoid conflicting formatting between developers)
+- Use Eslint to find errors in code. Rules defined in ```.eslintrc```
+
+## Setup / Installation 
+```node``` and ```npm``` (or yarn) are required to be installed on your machine.
+Clone this repository.
+
+At the root directory:
+
+Install packages: yarn install (or npm install)
 First, run the development server:
 
 ```bash
@@ -61,8 +72,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
